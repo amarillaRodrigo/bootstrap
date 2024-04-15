@@ -11,6 +11,7 @@
 
         <!-- Bootstrap CSS v5.2.1 -->
         <link rel="stylesheet" href="assets/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/style.css">
     </head>
 
     <body>
@@ -53,15 +54,20 @@
         </header>
         <main>
             <div id="carouselPromo" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselPromo" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselPromo" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselPromo" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
+                  <div class="carousel-item active d-item">
+                    <img src="assets/img/protePromo.jpg" class="d-block w-100 d-img" alt="slide1">
                   </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                  <div class="carousel-item d-item">
+                    <img src="assets/img/creatinaPromo.jpg" class="d-block w-100 d-img" alt="slide2">
                   </div>
-                  <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                  <div class="carousel-item d-item">
+                    <img src="assets/img/capsulasPromo.jpg" class="d-block w-100 d-img" alt="slide3">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromo" data-bs-slide="prev">
