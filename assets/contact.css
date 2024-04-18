@@ -1,0 +1,27 @@
+body{
+    background: #e8e8e8;
+}
+
+.form-area{
+    padding-left: 7%;
+}
+
+.row.single-form{
+    box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.left{
+    background: #649785;
+    padding: 200px 98px;
+}
+
+.left h2{
+    font-family: poppins;
+    color: #e8e8e8;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.left h2 span{
+    font-wei
+}
