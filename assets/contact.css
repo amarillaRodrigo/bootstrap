@@ -23,5 +23,34 @@ body{
 }
 
 .left h2 span{
-    font-wei
+    font-weight: 100;
+}
+
+.right{
+    padding: 70px 100px;
+    position: relative;
+}
+
+.right i {
+    position: absolute;
+    font-size: 80px;
+    left: -27px;
+    top: 40%;
+    color: antiquewhite;
+}
+
+.form-control{
+    border: 2px solid #0000;
+}
+
+.right button{
+    border: none;
+    border-radius: 0;
+    background: #252525;
+    width: 180px;
+    color: #ffff;
+    padding: 15px 0;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
 }
