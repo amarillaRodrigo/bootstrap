@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    min-width: 100vh;
+}
+
+.container-nosotros{
+    margin-top: 30px;
+
+}
+
+.contactarnos{
+    font-weight: bold;
+}
+
+i {
+    font-size: 25px;
+    color: #000000;
+
+}  
+
+i:hover{
+    color: #2c4941;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #78C2AD;
+}
